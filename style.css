@@ -37,7 +37,7 @@ nav{
     border-radius: 2px;
     text-decoration: none;
     font-size: 14px;
-    margin-left: 700px;
+    margin-left: 1000px;
 }
 .register-btn1{
     background: #fff;
@@ -63,7 +63,7 @@ nav{
     background:#fff;
     width: 70%;
     margin: 30px auto;
-    padding: 6px 10px 6px 30px;
+    padding: 8px 15px 6px 30px;
     border-radius: 50px;
 }
 .search-bar form{
@@ -79,16 +79,17 @@ nav{
 }
 .search-bar form button{
     background: #31b0c6;
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     border: 0;
     outline: none;
     cursor: pointer;
 }
 .search-bar form img{
-    width: 15px;
-    margin-top: 7px;
+    width: 20px;
+    margin-top: 10%;
+    margin-left: 20px;
 }
 .location-input{
     flex: 1;
@@ -115,7 +116,7 @@ h2{
 .product{
 	overflow: hidden;
 	background: #054a4c;
-	color: #21201e;
+	color: #ebe8e0;
 	text-align: center;
 	width: 240px;
 	height: 400px;
@@ -269,7 +270,7 @@ background-size: cover;
     padding: 20px 10px;
     font-size: 1.5rem;
     text-transform: uppercase;
-    text-shadow: 1px 0px 2px #262654;
+    text-shadow: 1px 0px 2px #ffffff;
 }
 .card-image1{
     background-image: url(images/story.png);
@@ -281,13 +282,15 @@ background-size: cover;
     background-image: url(images/travelling.png);
 }
 .card:hover{
-    background: #e84393;
+    background: #74dde6;
     color: #fff;
     box-shadow: 0px 0px 11px 5px #000000;
 
 }
 .card .card-text{
     line-height: 20px;
+    color: #8a8986;
+    
 }
 /*-------comments---------*/
 .main{
@@ -420,7 +423,7 @@ img{
     background-image: linear-gradient(
         135deg,
         #2bdce3,
-        #42ffdb
+        #0a2662
     );
 }
 .card3>.containers:after{
@@ -515,3 +518,81 @@ opacity: 1;
     font-weight: 400;
     margin: 0px 5px;
 }
+ 
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding:2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+    
+
+}
+
+@media (max-width:768px){
+
+    
+    .register-btn{
+        margin-left: auto;
+    }
+
+    .search-bar{
+        width: 600px;
+        height: 110px;
+    }
+    
+    .all-products{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .product{
+        overflow: hidden;
+        background: #054a4c;
+      
+        width: 130px;
+        height: 250px;
+        
+    }
+ .card{
+    width: 200px;
+    height: 300px;
+    margin-right: -50px;
+ }
+    .card-container{
+        background: rgb(17, 68, 69);
+        width: auto;
+        align-items: center;  
+        
+        
+    }
+
+    
+    .cards{
+        
+    align-items: center;
+    display: flex;
+    }
+    .details>h3{
+        font-size: 20px;
+    
+}
+.details>p{
+    font-size: 8px;
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+}}
